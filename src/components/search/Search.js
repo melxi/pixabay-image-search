@@ -38,7 +38,7 @@ class Search extends Component {
     });
   };
 
-  onAmountChange = (e, index, value) => {
+  onAmountChange = value => {
     this.setState({
       amount: value
     });
